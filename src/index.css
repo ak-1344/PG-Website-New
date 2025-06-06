@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 60 56% 91%;           /* Beige */
+    --foreground: 30 20% 20%;           /* Dark brown */
+
+    --card: 48 41% 94%;                 /* Cream */
+    --card-foreground: 30 20% 20%;
+
+    --popover: 48 41% 94%;              /* Cream */
+    --popover-foreground: 30 20% 20%;
+
+    --primary: 34 44% 63%;              /* Light brown */
+    --primary-foreground: 60 56% 91%;
+
+    --secondary: 48 41% 94%;            /* Cream */
+    --secondary-foreground: 30 20% 20%;
+
+    --muted: 48 41% 94%;                /* Cream */
+    --muted-foreground: 30 20% 40%;
+
+    --accent: 34 44% 63%;               /* Light brown */
+    --accent-foreground: 60 56% 91%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 60 56% 91%;
+
+    --border: 34 44% 80%;               /* Light brown border */
+    --input: 34 44% 80%;
+    --ring: 34 44% 63%;
+
+    --radius: 0.5rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans;
+    scroll-behavior: smooth;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-heading;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-primary text-white px-6 py-3 rounded-md font-medium hover:bg-primary/90 transition-all duration-300 hover:animate-button-glow;
+  }
+  
+  .section-container {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16;
+  }
+
+  .section-title {
+    @apply text-3xl font-bold mb-8 text-center font-heading;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
