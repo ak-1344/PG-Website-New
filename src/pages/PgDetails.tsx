@@ -16,34 +16,34 @@ const PgDetails = () => {
 
   const images = [
     {
-      url: "../src/media/common/nestinn/common.jpeg",
+      url: "../src/media/common/roop-nagar/common.jpeg",
       alt: "PG Common View"
     },
     {
-      url: "../src/media/common/nestinn/single.jpeg",
+      url: "../src/media/common/roop-nagar/single.jpeg",
       alt: "PG Single occupancy Room"
     },
     {
-      url: "../src/media/common/nestinn/double.jpeg",
+      url: "../src/media/common/roop-nagar/double.jpeg",
       alt: "PG Double occupancy Room"
     },
     {
-      url: "../src/media/common/nestinn/three.jpeg",
+      url: "../src/media/common/roop-nagar/three.jpeg",
       alt: "PG Triple occupancy Room"
     },
     {
-      url: "../src/media/common/nestinn/washroom.jpeg",
+      url: "../src/media/common/roop-nagar/washroom.jpeg",
       alt: "PG Washroom Area"
     },
     {
-      url: "../src/media/common/nestinn/balcony.jpeg",
+      url: "../src/media/common/roop-nagar/balcony.jpeg",
       alt: "PG Balcony Area"
     }
   ];
 
   const pgDetails = { 
-    "anna-nagar": {
-      name: "Anna Nagar PG",
+    "roop-nagar": {
+      name: "Roop Nagar PG",
       description: "Our Thikana PG offers comfortable accommodation for students and working professionals. Located in a peaceful residential area, the PG is just 5 minutes away from North Campus . The property features modern amenities including high-speed WiFi, air conditioning in all rooms, nutritious home-cooked four time meals, and 24x7 security. We maintain strict hygiene standards with regular housekeeping and provide comfortable beds with clean linens.",
       location: "Aspiration Gym, Roop Nagar, Delhi, 110007",
       nearbyPlaces: "Hansraj College (1 km), Kirori Mal College (1.5 km), North Campus Metro Station (0.5 km), Kamla Nagar Market (2 km), Delhi University Library (1.2 km)",
@@ -66,7 +66,7 @@ const PgDetails = () => {
     }
   };
 
-  const pg = pgDetails[id as keyof typeof pgDetails] || pgDetails["anna-nagar"];
+  const pg = pgDetails[id as keyof typeof pgDetails] || pgDetails["roop-nagar"];
 
   return (
     <>
@@ -164,25 +164,25 @@ const PgDetails = () => {
                   <div className="border-b pb-4">
                     <div className="flex justify-between items-center mb-2">
                       <h3 className="font-semibold">Single Occupancy</h3>
-                      <span className="font-semibold text-primary">₹12,000/month</span>
+                      <span className="font-semibold text-primary">₹20,000/month</span>
                     </div>
-                    <p className="text-sm text-gray-600">AC, Meals, Laundry Included</p>
+                    <p className="text-sm text-gray-600">AC, 4 times Meals, Laundry etc. Included</p>
                   </div>
                   
                   <div className="border-b pb-4">
                     <div className="flex justify-between items-center mb-2">
                       <h3 className="font-semibold">Double Sharing</h3>
-                      <span className="font-semibold text-primary">₹9,000/month</span>
+                      <span className="font-semibold text-primary">₹14,000/month</span>
                     </div>
-                    <p className="text-sm text-gray-600">Meals, Laundry Included</p>
+                    <p className="text-sm text-gray-600">AC, 4 times Meals, Laundry etc. Included</p>
                   </div>
                   
                   <div className="pb-4">
                     <div className="flex justify-between items-center mb-2">
                       <h3 className="font-semibold">Triple Sharing</h3>
-                      <span className="font-semibold text-primary">₹7,000/month</span>
+                      <span className="font-semibold text-primary">₹13,000/month</span>
                     </div>
-                    <p className="text-sm text-gray-600">Meals Only</p>
+                    <p className="text-sm text-gray-600">AC, 4 times Meals, Laundry etc. Only</p>
                   </div>
                 </div>
                 
@@ -192,7 +192,7 @@ const PgDetails = () => {
                   </Link>
                   
                   <a 
-                    href="tel:+919876543210" 
+                    href="tel:+919289957563" 
                     className="flex items-center justify-center w-full py-2 border border-primary text-primary rounded-md hover:bg-pgBlue-light transition-colors"
                   >
                     <svg className="w-5 h-5 mr-2" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -223,7 +223,13 @@ const PgDetails = () => {
                     <svg className="w-5 h-5 text-primary mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
                     </svg>
-                    Home-style Meals
+                    Emergency Doctor
+                  </li>
+                  <li className="flex items-center">
+                    <svg className="w-5 h-5 text-primary mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
+                    </svg>
+                    4-times Meals
                   </li>
                   <li className="flex items-center">
                     <svg className="w-5 h-5 text-primary mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -236,6 +242,12 @@ const PgDetails = () => {
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
                     </svg>
                     Housekeeping
+                  </li>
+                  <li className="flex items-center">
+                    <svg className="w-5 h-5 text-primary mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
+                    </svg>
+                    Gym
                   </li>
                   <li className="flex items-center">
                     <svg className="w-5 h-5 text-primary mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">

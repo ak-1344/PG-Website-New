@@ -32,9 +32,9 @@ const LocationCard = ({ id, name, image, address, nearbyPlaces }: LocationCardPr
 
 const locations = [ 
   {
-    id: "roop-naagr",
-    name: "Roop Nagar PG",
-    image: "src/media/common/nestinn/common.jpeg",
+    id: "roop-nagar",
+    name: "Roop Nagar PG (Boys)",
+    image: "src/media/common/roop-nagar/common.jpeg",
     address: "Aspiration Gym, Roop Nagar, Delhi",
     nearbyPlaces: "Hansraj College, Kirori Mal College, North Campus"
   },
