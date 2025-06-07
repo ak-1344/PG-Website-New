@@ -16,27 +16,27 @@ const PgDetails = () => {
 
   const images = [
     {
-      url: "../src/media/common/roop-nagar/common.jpeg",
+      url: "/media/common/roop-nagar/common.jpeg",
       alt: "PG Common View"
     },
     {
-      url: "../src/media/common/roop-nagar/single.jpeg",
+      url: "/media/common/roop-nagar/single.jpeg",
       alt: "PG Single occupancy Room"
     },
     {
-      url: "../src/media/common/roop-nagar/double.jpeg",
+      url: "/media/common/roop-nagar/double.jpeg",
       alt: "PG Double occupancy Room"
     },
     {
-      url: "../src/media/common/roop-nagar/three.jpeg",
+      url: "/media/common/roop-nagar/three.jpeg",
       alt: "PG Triple occupancy Room"
     },
     {
-      url: "../src/media/common/roop-nagar/washroom.jpeg",
+      url: "/media/common/roop-nagar/washroom.jpeg",
       alt: "PG Washroom Area"
     },
     {
-      url: "../src/media/common/roop-nagar/balcony.jpeg",
+      url: "/media/common/roop-nagar/balcony.jpeg",
       alt: "PG Balcony Area"
     }
   ];

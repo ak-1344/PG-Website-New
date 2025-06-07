@@ -34,7 +34,7 @@ const locations = [
   {
     id: "roop-nagar",
     name: "Roop Nagar PG (Boys)",
-    image: "src/media/common/roop-nagar/common.jpeg",
+    image: "media/common/roop-nagar/common.jpeg",
     address: "Aspiration Gym, Roop Nagar, Delhi",
     nearbyPlaces: "Hansraj College, Kirori Mal College, North Campus"
   },
