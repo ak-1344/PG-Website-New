@@ -14,59 +14,151 @@ const PgDetails = () => {
     window.scrollTo(0, 0);
   }, []);
 
-  const images = [
-    {
-      url: "/media/common/roop-nagar/common.jpeg",
-      alt: "PG Common View"
-    },
-    {
-      url: "/media/common/roop-nagar/single.jpeg",
-      alt: "PG Single occupancy Room"
-    },
-    {
-      url: "/media/common/roop-nagar/double.jpeg",
-      alt: "PG Double occupancy Room"
-    },
-    {
-      url: "/media/common/roop-nagar/three.jpeg",
-      alt: "PG Triple occupancy Room"
-    },
-    {
-      url: "/media/common/roop-nagar/washroom.jpeg",
-      alt: "PG Washroom Area"
-    },
-    {
-      url: "/media/common/roop-nagar/balcony.jpeg",
-      alt: "PG Balcony Area"
-    }
-  ];
 
-  const pgDetails = { 
+  const pgDetails = {
+
+
     "roop-nagar": {
       name: "Roop Nagar PG",
       description: "Our Thikana PG offers comfortable accommodation for students and working professionals. Located in a peaceful residential area, the PG is just 5 minutes away from North Campus . The property features modern amenities including high-speed WiFi, air conditioning in all rooms, nutritious home-cooked four time meals, and 24x7 security. We maintain strict hygiene standards with regular housekeeping and provide comfortable beds with clean linens.",
       location: "Aspiration Gym, Roop Nagar, Delhi, 110007",
       nearbyPlaces: "Hansraj College (1 km), Kirori Mal College (1.5 km), North Campus Metro Station (0.5 km), Kamla Nagar Market (2 km), Delhi University Library (1.2 km)",
-      googleMapsEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502.1447030180066!2d77.19449867548974!3d28.683195381193504!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfda77a40ea23%3A0x942b1e349da7580!2sNestInn!5e0!3m2!1sen!2sin!4v1717771992703!5m2!1sen!2sin"
+      googleMapsEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502.1447030180066!2d77.19449867548974!3d28.683195381193504!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfda77a40ea23%3A0x942b1e349da7580!2sNestInn!5e0!3m2!1sen!2sin!4v1717771992703!5m2!1sen!2sin",
+      images: [
+        { url: "/media/common/roop-nagar/common.jpeg", alt: "PG Common View" },
+        { url: "/media/common/roop-nagar/single.jpeg", alt: "PG Single occupancy Room" },
+        { url: "/media/common/roop-nagar/double.jpeg", alt: "PG Double occupancy Room" },
+        { url: "/media/common/roop-nagar/three.jpeg", alt: "PG Triple occupancy Room" },
+        { url: "/media/common/roop-nagar/washroom.jpeg", alt: "PG Washroom Area" },
+        { url: "/media/common/roop-nagar/balcony.jpeg", alt: "PG Balcony Area" }
+      ],
+      amenities: [
+        "Free WiFi",
+        "24x7 Security",
+        "Emergency Doctor",
+        "4-times Meals",
+        "Laundry Services",
+        "Housekeeping",
+        "Gym",
+        "Recreational Areas"
+      ],
+      roomPricing: [
+        {
+          type: "Single Occupancy",
+          price: "₹20,000/month",
+          description: "AC, 4 times Meals, Laundry etc. Included"
+        },
+        {
+          type: "Double Sharing",
+          price: "₹14,000/month",
+          description: "AC, 4 times Meals, Laundry etc. Included"
+        },
+        {
+          type: "Triple Sharing",
+          price: "₹13,000/month",
+          description: "AC, 4 times Meals, Laundry etc. Included"
+        }
+      ]
     },
-      
+
+
+
+
+
     "adyar": {
       name: "Adyar PG",
       description: "Located in the heart of Adyar...",
       location: "45 Second Avenue, Anna Nagar, Chennai, Tamil Nadu, 600040",
       nearbyPlaces: "Anna University (1.5 km), VR Chennai Mall (2 km), Anna Nagar Metro Station (0.8 km), Apollo Hospitals (3 km), Central Park (1 km)",
-      googleMapsEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15547.880022854869!2d80.20680297736966!3d13.0826056554568!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5264078822719b%3A0xbda01077b89581e2!2sAnna%20Nagar%2C%20Chennai%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1715938859823!5m2!1sen!2sin"
+      googleMapsEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15547.880022854869!2d80.20680297736966!3d13.0826056554568!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5264078822719b%3A0xbda01077b89581e2!2sAnna%20Nagar%2C%20Chennai%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1715938859823!5m2!1sen!2sin",
+      images: [
+        { url: "/media/common/roop-nagar/common.jpeg", alt: "PG Common View" },
+        { url: "/media/common/roop-nagar/single.jpeg", alt: "PG Single occupancy Room" },
+        { url: "/media/common/roop-nagar/double.jpeg", alt: "PG Double occupancy Room" },
+        { url: "/media/common/roop-nagar/three.jpeg", alt: "PG Triple occupancy Room" },
+        { url: "/media/common/roop-nagar/washroom.jpeg", alt: "PG Washroom Area" },
+        { url: "/media/common/roop-nagar/balcony.jpeg", alt: "PG Balcony Area" }
+      ],
+      amenities: [
+        "Free WiFi",
+        "24x7 Security",
+        "Emergency Doctor",
+        "4-times Meals",
+        "Laundry Services",
+        "Housekeeping",
+        "Gym"
+      ],
+      roomPricing: [
+        {
+          type: "Single Occupancy",
+          price: "₹20,000/month",
+          description: "AC, 4 times Meals, Laundry etc. Included"
+        },
+        {
+          type: "Double Sharing",
+          price: "₹14,000/month",
+          description: "AC, 4 times Meals, Laundry etc. Included"
+        },
+        {
+          type: "Triple Sharing",
+          price: "₹13,000/month",
+          description: "AC, 4 times Meals, Laundry etc. Included"
+        }
+      ]
     },
+
+
+
+
+
+
+
     "velachery": {
       name: "Velachery PG",
       description: "Modern PG accommodation in Velachery...",
       location: "45 Second Avenue, Anna Nagar, Chennai, Tamil Nadu, 600040",
       nearbyPlaces: "Anna University (1.5 km), VR Chennai Mall (2 km), Anna Nagar Metro Station (0.8 km), Apollo Hospitals (3 km), Central Park (1 km)",
-      googleMapsEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15547.880022854869!2d80.20680297736966!3d13.0826056554568!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5264078822719b%3A0xbda01077b89581e2!2sAnna%20Nagar%2C%20Chennai%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1715938859823!5m2!1sen!2sin"
+      googleMapsEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15547.880022854869!2d80.20680297736966!3d13.0826056554568!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5264078822719b%3A0xbda01077b89581e2!2sAnna%20Nagar%2C%20Chennai%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1715938859823!5m2!1sen!2sin",
+      images: [
+        { url: "/media/common/roop-nagar/common.jpeg", alt: "PG Common View" },
+        { url: "/media/common/roop-nagar/single.jpeg", alt: "PG Single occupancy Room" },
+        { url: "/media/common/roop-nagar/double.jpeg", alt: "PG Double occupancy Room" },
+        { url: "/media/common/roop-nagar/three.jpeg", alt: "PG Triple occupancy Room" },
+        { url: "/media/common/roop-nagar/washroom.jpeg", alt: "PG Washroom Area" },
+        { url: "/media/common/roop-nagar/balcony.jpeg", alt: "PG Balcony Area" }
+      ],
+      amenities: [
+        "Free WiFi",
+        "24x7 Security",
+        "Emergency Doctor",
+        "4-times Meals",
+        "Laundry Services",
+        "Housekeeping",
+        "Gym",
+        "Recreational Areas"
+      ],
+      roomPricing: [
+        {
+          type: "Single Occupancy",
+          price: "₹20,000/month",
+          description: "AC, 4 times Meals, Laundry etc. Included"
+        },
+        {
+          type: "Double Sharing",
+          price: "₹14,000/month",
+          description: "AC, 4 times Meals, Laundry etc. Included"
+        },
+        {
+          type: "Triple Sharing",
+          price: "₹13,000/month",
+          description: "AC, 4 times Meals, Laundry etc. Included"
+        }
+      ]
     }
   };
 
   const pg = pgDetails[id as keyof typeof pgDetails] || pgDetails["roop-nagar"];
+  const images = pg.images;
 
   return (
     <>
@@ -91,7 +183,7 @@ const PgDetails = () => {
                     alt={images[currentImageIndex].alt}
                     className="w-full h-full object-cover"
                   />
-                  
+
                   {/* Navigation Buttons */}
                   <button
                     onClick={() => setCurrentImageIndex((prev) => (prev === 0 ? images.length - 1 : prev - 1))}
@@ -105,16 +197,15 @@ const PgDetails = () => {
                   >
                     <ChevronRight size={24} />
                   </button>
-                  
+
                   {/* Image Indicators */}
                   <div className="absolute bottom-4 left-1/2 -translate-x-1/2 flex space-x-2">
                     {images.map((_, index) => (
                       <button
                         key={index}
                         onClick={() => setCurrentImageIndex(index)}
-                        className={`w-2 h-2 rounded-full transition-colors ${
-                          index === currentImageIndex ? "bg-white" : "bg-white/50"
-                        }`}
+                        className={`w-2 h-2 rounded-full transition-colors ${index === currentImageIndex ? "bg-white" : "bg-white/50"
+                          }`}
                       />
                     ))}
                   </div>
@@ -161,38 +252,24 @@ const PgDetails = () => {
               <div className="bg-white p-6 rounded-lg shadow-md mb-6">
                 <h2 className="text-xl font-bold mb-4">Room Types & Pricing</h2>
                 <div className="space-y-4">
-                  <div className="border-b pb-4">
-                    <div className="flex justify-between items-center mb-2">
-                      <h3 className="font-semibold">Single Occupancy</h3>
-                      <span className="font-semibold text-primary">₹20,000/month</span>
+                  {pg.roomPricing.map((room, index) => (
+                    <div key={index} className={`pb-4 ${index !== pg.roomPricing.length - 1 ? "border-b" : ""}`}>
+                      <div className="flex justify-between items-center mb-2">
+                        <h3 className="font-semibold">{room.type}</h3>
+                        <span className="font-semibold text-primary">{room.price}</span>
+                      </div>
+                      <p className="text-sm text-gray-600">{room.description}</p>
                     </div>
-                    <p className="text-sm text-gray-600">AC, 4 times Meals, Laundry etc. Included</p>
-                  </div>
-                  
-                  <div className="border-b pb-4">
-                    <div className="flex justify-between items-center mb-2">
-                      <h3 className="font-semibold">Double Sharing</h3>
-                      <span className="font-semibold text-primary">₹14,000/month</span>
-                    </div>
-                    <p className="text-sm text-gray-600">AC, 4 times Meals, Laundry etc. Included</p>
-                  </div>
-                  
-                  <div className="pb-4">
-                    <div className="flex justify-between items-center mb-2">
-                      <h3 className="font-semibold">Triple Sharing</h3>
-                      <span className="font-semibold text-primary">₹13,000/month</span>
-                    </div>
-                    <p className="text-sm text-gray-600">AC, 4 times Meals, Laundry etc. Included</p>
-                  </div>
+                  ))}
                 </div>
-                
+
                 <div className="space-y-3 mt-6">
                   <Link to="/#book">
                     <Button className="w-full bg-primary hover:bg-pgBlue-dark">Book a Visit</Button>
                   </Link>
-                  
-                  <a 
-                    href="tel:+919289957563" 
+
+                  <a
+                    href="tel:+919289957563"
                     className="flex items-center justify-center w-full py-2 border border-primary text-primary rounded-md hover:bg-pgBlue-light transition-colors"
                   >
                     <svg className="w-5 h-5 mr-2" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -202,60 +279,21 @@ const PgDetails = () => {
                   </a>
                 </div>
               </div>
-              
+
               {/* Amenities */}
               <div className="bg-white p-6 rounded-lg shadow-md">
                 <h2 className="text-xl font-bold mb-4">Amenities</h2>
                 <ul className="space-y-3">
-                  <li className="flex items-center">
-                    <svg className="w-5 h-5 text-primary mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
-                    </svg>
-                    Free WiFi
-                  </li>
-                  <li className="flex items-center">
-                    <svg className="w-5 h-5 text-primary mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
-                    </svg>
-                    24x7 Security
-                  </li>
-                  <li className="flex items-center">
-                    <svg className="w-5 h-5 text-primary mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
-                    </svg>
-                    Emergency Doctor
-                  </li>
-                  <li className="flex items-center">
-                    <svg className="w-5 h-5 text-primary mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
-                    </svg>
-                    4-times Meals
-                  </li>
-                  <li className="flex items-center">
-                    <svg className="w-5 h-5 text-primary mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
-                    </svg>
-                    Laundry Services
-                  </li>
-                  <li className="flex items-center">
-                    <svg className="w-5 h-5 text-primary mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
-                    </svg>
-                    Housekeeping
-                  </li>
-                  <li className="flex items-center">
-                    <svg className="w-5 h-5 text-primary mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
-                    </svg>
-                    Gym
-                  </li>
-                  <li className="flex items-center">
-                    <svg className="w-5 h-5 text-primary mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
-                    </svg>
-                    Recreational Areas
-                  </li>
+                  {pg.amenities.map((item, index) => (
+                    <li key={index} className="flex items-center">
+                      <svg className="w-5 h-5 text-primary mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
+                      </svg>
+                      {item}
+                    </li>
+                  ))}
                 </ul>
+
               </div>
             </div>
           </div>

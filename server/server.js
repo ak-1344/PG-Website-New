@@ -38,7 +38,7 @@ app.post('/send-email', async (req, res) => {
   }
 
   // Sender email (must be verified in Brevo)
-  const senderEmail = process.env.BREVO_SENDER_EMAIL || 'no-reply@yourdomain.com';
+  const senderEmail = process.env.BREVO_SENDER_EMAIL || 'thikanapg@gmail.com';
 
   // Customer email template
   const subjectCustomer = `Your Booking Confirmation for ${pgProperty}`;
