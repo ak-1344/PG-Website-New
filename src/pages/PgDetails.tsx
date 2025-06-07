@@ -89,18 +89,8 @@ const PgDetails = () => {
       ],
       roomPricing: [
         {
-          type: "Single Occupancy",
-          price: "₹20,000/month",
-          description: "AC, 4 times Meals, Laundry etc. Included"
-        },
-        {
           type: "Double Sharing",
           price: "₹14,000/month",
-          description: "AC, 4 times Meals, Laundry etc. Included"
-        },
-        {
-          type: "Triple Sharing",
-          price: "₹13,000/month",
           description: "AC, 4 times Meals, Laundry etc. Included"
         }
       ]
