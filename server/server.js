@@ -11,12 +11,7 @@ app.use(express.json());
 
 const PORT = process.env.PORT || 5000;
 
-// Mapping of PG properties to client emails
-const pgClientMap = {
-  'xyz': 'divya.sabharwal2023@vitstudent.ac.in',
-  'Comfort PG - Central': 'client2@example.com',
-  'Elite PG - Tech Park': 'client3@example.com',
-};
+const pgClientEmail = 'thikanapg@gmail.com'
 
 // Nodemailer configuration for Brevo
 const transporter = nodemailer.createTransport({
@@ -37,8 +32,7 @@ app.post('/send-email', async (req, res) => {
     return res.status(400).json({ message: 'Missing required fields' });
   }
 
-  // Get client email based on pgProperty
-  const clientEmail = pgClientMap[pgProperty];
+  const clientEmail = pgClientEmail;
   if (!clientEmail) {
     return res.status(400).json({ message: `No client email found for PG property: ${pgProperty}` });
   }

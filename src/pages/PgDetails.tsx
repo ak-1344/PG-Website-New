@@ -182,7 +182,7 @@ const PgDetails = () => {
                       <h3 className="font-semibold">Triple Sharing</h3>
                       <span className="font-semibold text-primary">₹13,000/month</span>
                     </div>
-                    <p className="text-sm text-gray-600">AC, 4 times Meals, Laundry etc. Only</p>
+                    <p className="text-sm text-gray-600">AC, 4 times Meals, Laundry etc. Included</p>
                   </div>
                 </div>
                 
