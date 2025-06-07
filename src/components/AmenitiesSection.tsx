@@ -33,7 +33,7 @@ const AmenitiesSection = () => {
     },
     {
       icon: <Utensils size={24} />,
-      title: "Home-Style Meals",
+      title: "Four time meals🍽️",
       description: "Nutritious and delicious meals prepared freshly",
     },
     {

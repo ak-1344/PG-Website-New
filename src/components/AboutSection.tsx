@@ -7,9 +7,8 @@ const AboutSection = () => {
         <h2 className="section-title">About Us</h2>
         <div className="max-w-3xl mx-auto text-center">
           <p className="text-lg text-secondary-foreground leading-relaxed">
-            CozyStay PG provides safe, comfortable, and affordable accommodation for students and young professionals. 
-            With over 5 years of experience, we understand what residents need to feel at home while focusing on their studies or careers.
-            Our PGs are strategically located near major educational institutions and business hubs.
+            Thikana is a student accommodation in Delhi 🏙️ designed to offer a perfect blend of comfort 🛏️, safety 🛡️, and affordability 💸. With thoughtfully furnished rooms, essential amenities 🧺, and a peaceful environment 🌿, Thikana provides students with a homely space 🏠 to focus on their academic journey 📚 while enjoying a relaxed and supportive living experience 🤝.
+
           </p>
         </div>
       </div>

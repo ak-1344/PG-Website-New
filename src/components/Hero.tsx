@@ -2,7 +2,7 @@ import React from "react";
 
 const Hero = () => {
   const handleBookClick = () => {
-    const bookSection = document.getElementById("book");
+    const bookSection = document.getElementById("book-visit");
     if (bookSection) {
       bookSection.scrollIntoView({ behavior: "smooth" });
     }
@@ -19,8 +19,7 @@ const Hero = () => {
               <span className="block text-primary">Book a Visit Today.</span>
             </h1>
             <p className="text-lg text-gray-700 mb-6 max-w-lg">
-              Safe, comfortable, home-like PGs for students and young professionals
-              near XYZ University, Chennai.
+              🏠 Linking students to trusted PGs in Delhi! Safe, affordable stays with our network of top PGs. 📞 Book now! #DelhiPGs
             </p>
             <button
               onClick={handleBookClick}

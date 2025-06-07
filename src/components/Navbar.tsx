@@ -51,7 +51,7 @@ const Navbar = () => {
     >
       <div className="container mx-auto px-4 flex items-center justify-between">
         <Link to="/" className="flex items-center">
-          <h1 className="text-2xl font-bold text-primary">CozyStay</h1>
+          <h1 className="text-4xl font-bold text-primary">Thikana</h1>
         </Link>
 
         {/* Desktop Navigation */}
@@ -81,7 +81,7 @@ const Navbar = () => {
             Rooms
           </button>
           <button 
-            onClick={() => handleNavigation('book')} 
+            onClick={() => handleNavigation('book-visit')} 
             className="btn-primary"
           >
             Book a Visit
