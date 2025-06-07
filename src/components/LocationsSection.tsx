@@ -35,15 +35,15 @@ const locations = [
     id: "roop-nagar",
     name: "Roop Nagar PG (Boys)",
     image: "media/common/roop-nagar/common.jpeg",
-    address: "Aspiration Gym, Roop Nagar, Delhi",
-    nearbyPlaces: "Hansraj College, Kirori Mal College, North Campus"
+    address: "Roop Nagar, Delhi",
+    nearbyPlaces: "Hansraj College, KMC, North Campus"
   },
   {
-    id: "adyar",
-    name: "Adyar PG",
-    image: "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af",
-    address: "12 Beach Road, Adyar, Chennai",
-    nearbyPlaces: "IIT Madras, Adyar Beach, Phoenix Mall"
+    id: "PH01",
+    name: "Pixel Home PG (PH01) ~Girls",
+    image: "media/common/PixelHome/2-bed.jpeg",
+    address: "Vijay Nagar, Delhi",
+    nearbyPlaces: "Miranda House, North Campus"
   },
   {
     id: "velachery",
