@@ -25,7 +25,7 @@ const transporter = nodemailer.createTransport({
 });
 
 app.post('/send-email', async (req, res) => {
-  const { name, email, phone, pgProperty, visitDate, notes } = req.body;
+  const { name, email, phone, pgProperty, visitDate, visitTime, notes } = req.body;
 
   // Validate required fields
   if (!name || !email || !phone || !pgProperty || !visitDate) {
@@ -70,6 +70,11 @@ app.post('/send-email', async (req, res) => {
             <td style="padding: 10px; font-size: 16px; color: #333; border-bottom: 1px solid #e0e0e0; width: 40%; vertical-align: top;"><strong>Visit Date & Time:</strong></td>
             <td style="padding: 10px; font-size: 16px; color: #333; border-bottom: 1px solid #e0e0e0; width: 60%; word-wrap: break-word; overflow-wrap: break-word;">${visitDate}</td>
           </tr>
+          <tr>
+  <td style="padding: 10px; font-size: 16px; color: #333; border-bottom: 1px solid #e0e0e0; width: 40%; vertical-align: top;"><strong>Visit Time:</strong></td>
+  <td style="padding: 10px; font-size: 16px; color: #333; border-bottom: 1px solid #e0e0e0; width: 60%; word-wrap: break-word; overflow-wrap: break-word;">${visitTime}</td>
+</tr>
+
           <tr>
             <td style="padding: 10px; font-size: 16px; color: #333; border-bottom: 1px solid #e0e0e0; width: 40%; vertical-align: top;"><strong>Notes:</strong></td>
             <td style="padding: 10px; font-size: 16px; color: #333; border-bottom: 1px solid #e0e0e0; width: 60%; word-wrap: break-word; overflow-wrap: break-word;">${notes || 'N/A'}</td>
@@ -120,6 +125,11 @@ app.post('/send-email', async (req, res) => {
             <td style="padding: 10px; font-size: 16px; color: #333; border-bottom: 1px solid #e0e0e0; width: 40%; vertical-align: top;"><strong>Visit Date & Time:</strong></td>
             <td style="padding: 10px; font-size: 16px; color: #333; border-bottom: 1px solid #e0e0e0; width: 60%; word-wrap: break-word; overflow-wrap: break-word;">${visitDate}</td>
           </tr>
+          <tr>
+  <td style="padding: 10px; font-size: 16px; color: #333; border-bottom: 1px solid #e0e0e0; width: 40%; vertical-align: top;"><strong>Visit Time:</strong></td>
+  <td style="padding: 10px; font-size: 16px; color: #333; border-bottom: 1px solid #e0e0e0; width: 60%; word-wrap: break-word; overflow-wrap: break-word;">${visitTime}</td>
+</tr>
+
           <tr>
             <td style="padding: 10px; font-size: 16px; color: #333; border-bottom: 1px solid #e0e0e0; width: 40%; vertical-align: top;"><strong>Notes:</strong></td>
             <td style="padding: 10px; font-size: 16px; color: #333; border-bottom: 1px solid #e0e0e0; width: 60%; word-wrap: break-word; overflow-wrap: break-word;">${notes || 'N/A'}</td>

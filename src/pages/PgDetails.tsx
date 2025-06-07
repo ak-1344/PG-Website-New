@@ -6,6 +6,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
 
+
 const PgDetails = () => {
   const { id } = useParams();
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
@@ -114,8 +115,8 @@ const PgDetails = () => {
         { url: "/media/common/NI02/common2.jpeg", alt: "PG Single occupancy Room" },
         { url: "/media/common/NI02/double.jpeg", alt: "PG Double occupancy Room" },
         { url: "/media/common/NI02/common3.jpeg", alt: "PG Triple occupancy Room" },
-      //   { url: "/media/common/", alt: "PG Washroom Area" },
-      //   { url: "/media/common/", alt: "PG Balcony Area" }
+        //   { url: "/media/common/", alt: "PG Washroom Area" },
+        //   { url: "/media/common/", alt: "PG Balcony Area" }
       ],
       amenities: [
         "Free WiFi",
@@ -143,10 +144,102 @@ const PgDetails = () => {
         //   description: "AC, 4 times Meals, Laundry etc. Included"
         // }
       ]
+    },
+
+
+
+
+
+
+    "AL01": {
+      name: "AL01 PG (Girls)",
+      description: "Thiakana PG offers comfortable accommodation for students and working professionals. Located in a peaceful residential area, the PG is just 5 minutes away from North Campus . The property features modern amenities including high-speed WiFi, air conditioning in all rooms, nutritious home-cooked four time meals, and 24x7 security. We maintain strict hygiene standards with regular housekeeping and provide comfortable beds with clean linens.",
+      location: "Vijay, Delhi, 110007",
+      nearbyPlaces: "DRC (1 km), Miranda House (1.5 km), North Campus Metro Station (0.5 km), Kamla Nagar Market (2 km), Delhi University Library (1.2 km)",
+      googleMapsEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3499.9363183247524!2d77.1993249!3d28.6915515!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfdf48d96153b%3A0x71f240ceb9698a1f!2sManjeet%20Cold%20Drink!5e0!3m2!1sen!2sin!4v1749316884634!5m2!1sen!2sin",
+      images: [
+        { url: "/media/common/AL01/study.jpeg", alt: "PG Common View" },
+        { url: "/media/common/AL01/bed.jpeg", alt: "PG Single occupancy Room" },
+        { url: "/media/common/AL01/kitchen.jpeg", alt: "PG Double occupancy Room" },
+        { url: "/media/common/AL01/laundary.jpeg", alt: "PG Triple occupancy Room" },
+        { url: "/media/common/AL01/bathroom.jpeg", alt: "PG Washroom Area" },
+        { url: "/media/common/AL01/lift.jpeg", alt: "PG Balcony Area" }
+      ],
+      amenities: [
+        "Free WiFi",
+        "24x7 Security",
+        "Emergency Doctor",
+        "4-times Meals",
+        "Laundry Services",
+        "Housekeeping",
+        "Recreational Areas"
+      ],
+      roomPricing: [
+        {
+          type: "Double Sharing",
+          price: "₹16,000/month",
+          description: "AC, 4 times Meals, Laundry etc. Included"
+        },
+        {
+          type: "Double Sharing with balcony",
+          price: "₹20,000/month",
+          description: "AC, 4 times Meals, Laundry etc. Included"
+        },
+        // {
+        //   type: "Triple Sharing",
+        //   price: "₹13,000/month",
+        //   description: "AC, 4 times Meals, Laundry etc. Included"
+        // }
+      ]
+    },
+
+
+
+
+    "MY01": {
+      name: "MY01 PG (Boys)",
+      description: "Thiakana PG offers comfortable accommodation for students and working professionals. Located in a peaceful residential area, the PG is just 5 minutes away from North Campus . The property features modern amenities including high-speed WiFi, air conditioning in all rooms, nutritious home-cooked four time meals, and 24x7 security. We maintain strict hygiene standards with regular housekeeping and provide comfortable beds with clean linens.",
+      location: "Vijay, Delhi, 110007",
+      nearbyPlaces: "DRC (1 km), Miranda House (1.5 km), North Campus Metro Station (0.5 km), Kamla Nagar Market (2 km), Delhi University Library (1.2 km)",
+      googleMapsEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3499.9363183247524!2d77.1993249!3d28.6915515!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfdf48d96153b%3A0x71f240ceb9698a1f!2sManjeet%20Cold%20Drink!5e0!3m2!1sen!2sin!4v1749316884634!5m2!1sen!2sin",
+      images: [
+        { url: "/media/common/MY01/2bed.jpeg", alt: "PG Common View" },
+        { url: "/media/common/MY01/room.jpeg", alt: "PG Single occupancy Room" },
+        { url: "/media/common/MY01/washroom.jpeg", alt: "PG Double occupancy Room" },
+        // { url: "/media/common/", alt: "PG Triple occupancy Room" },
+        // { url: "/media/common/", alt: "PG Washroom Area" },
+        // { url: "/media/common/", alt: "PG Balcony Area" }
+      ],
+      amenities: [
+        "Free WiFi",
+        "24x7 Security",
+        "Emergency Doctor",
+        "4-times Meals",
+        "Laundry Services",
+        "Housekeeping",
+        "Recreational Areas"
+      ],
+      roomPricing: [
+        {
+          type: "Double Sharing",
+          price: "₹17,000/month",
+          description: "AC, 4 times Meals, Laundry etc. Included"
+        },
+        // {
+        //   type: "Double Sharing with balcony",
+        //   price: "₹20,000/month",
+        //   description: "AC, 4 times Meals, Laundry etc. Included"
+        // },
+        // {
+        //   type: "Triple Sharing",
+        //   price: "₹13,000/month",
+        //   description: "AC, 4 times Meals, Laundry etc. Included"
+        // }
+      ]
     }
   };
 
-  const pg = pgDetails[id as keyof typeof pgDetails] || pgDetails["roop-nagar"];
+  const pg = pgDetails[id as keyof typeof pgDetails] || pgDetails["NI01"];
   const images = pg.images;
 
   return (
@@ -253,7 +346,7 @@ const PgDetails = () => {
                 </div>
 
                 <div className="space-y-3 mt-6">
-                  <Link to="/#book">
+                  <Link to="/#book-visit">
                     <Button className="w-full bg-primary hover:bg-pgBlue-dark">Book a Visit</Button>
                   </Link>
 

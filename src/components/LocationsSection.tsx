@@ -52,6 +52,20 @@ const locations = [
     address: "Roop Nagar, Delhi",
     nearbyPlaces: "Hansraj College, KMC, North Campus"
   },
+  {
+    id: "AL01",
+    name: "AL01 PG (Girls)",
+    image: "media/common/AL01/study.jpeg",
+    address: "VijayNagar, Delhi",
+    nearbyPlaces: "DRC, Miranda House, North Campus"
+  },
+  {
+    id: "MY01",
+    name: "MY01 PG (Boys)",
+    image: "media/common/MY01/room.jpeg",
+    address: "VijayNagar, Delhi",
+    nearbyPlaces: "DRC, Miranda House, North Campus"
+  },
 ];
 
 const LocationsSection = () => {

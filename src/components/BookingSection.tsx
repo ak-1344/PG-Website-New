@@ -18,7 +18,7 @@ const BookingSection: React.FC<BookingSectionProps> = ({ preselectedPg }) => {
 
   const [loading, setLoading] = useState(false);
 
-  const pgOptions = ['NI01', 'PH01', 'NI02'];
+  const pgOptions = ['NI01 (Boys)', 'PH01 (Girls)', 'NI02 (Boys)', 'AL01 (Girls)', 'MY01 (Boys)'];
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement | HTMLTextAreaElement>) => {
     const { name, value } = e.target;
@@ -152,7 +152,7 @@ const BookingSection: React.FC<BookingSectionProps> = ({ preselectedPg }) => {
                     required
                     disabled={loading}
                   />
-                  <CalendarIcon size={20} className="absolute right-3 top-1/2 transform -translate-y-1/2 text-gray-500 pointer-events-none" />
+                  {/* <CalendarIcon size={20} className="absolute right-3 top-1/2 transform -translate-y-1/2 text-gray-500 pointer-events-none" /> */}
                 </div>
               </div>
               <div>
