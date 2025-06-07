@@ -30,13 +30,13 @@ const LocationCard = ({ id, name, image, address, nearbyPlaces }: LocationCardPr
   );
 };
 
-const locations = [
+const locations = [ 
   {
-    id: "anna-nagar",
-    name: "Anna Nagar PG",
-    image: "https://images.unsplash.com/photo-1721322800607-8c38375eef04",
-    address: "45 Second Avenue, Anna Nagar, Chennai",
-    nearbyPlaces: "Anna University, VR Mall, Metro Station"
+    id: "roop-naagr",
+    name: "Roop Nagar PG",
+    image: "src/media/common/nestinn/common.jpeg",
+    address: "Aspiration Gym, Roop Nagar, Delhi",
+    nearbyPlaces: "Hansraj College, Kirori Mal College, North Campus"
   },
   {
     id: "adyar",

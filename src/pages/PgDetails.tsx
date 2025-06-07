@@ -16,27 +16,40 @@ const PgDetails = () => {
 
   const images = [
     {
-      url: "https://images.unsplash.com/photo-1721322800607-8c38375eef04",
-      alt: "PG Main View"
+      url: "../src/media/common/nestinn/common.jpeg",
+      alt: "PG Common View"
     },
     {
-      url: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158",
-      alt: "PG Room"
+      url: "../src/media/common/nestinn/single.jpeg",
+      alt: "PG Single occupancy Room"
     },
     {
-      url: "https://images.unsplash.com/photo-1649972904349-6e44c42644a7",
-      alt: "PG Common Area"
+      url: "../src/media/common/nestinn/double.jpeg",
+      alt: "PG Double occupancy Room"
+    },
+    {
+      url: "../src/media/common/nestinn/three.jpeg",
+      alt: "PG Triple occupancy Room"
+    },
+    {
+      url: "../src/media/common/nestinn/washroom.jpeg",
+      alt: "PG Washroom Area"
+    },
+    {
+      url: "../src/media/common/nestinn/balcony.jpeg",
+      alt: "PG Balcony Area"
     }
   ];
 
-  const pgDetails = {
+  const pgDetails = { 
     "anna-nagar": {
       name: "Anna Nagar PG",
-      description: "Our Anna Nagar PG offers comfortable accommodation for students and working professionals. Located in a peaceful residential area, the PG is just 10 minutes away from Anna University and major corporate offices. The property features modern amenities including high-speed WiFi, air conditioning in select rooms, nutritious home-cooked meals, and 24x7 security. We maintain strict hygiene standards with regular housekeeping and provide comfortable beds with clean linens.",
-      location: "45 Second Avenue, Anna Nagar, Chennai, Tamil Nadu, 600040",
-      nearbyPlaces: "Anna University (1.5 km), VR Chennai Mall (2 km), Anna Nagar Metro Station (0.8 km), Apollo Hospitals (3 km), Central Park (1 km)",
-      googleMapsEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15547.880022854869!2d80.20680297736966!3d13.0826056554568!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5264078822719b%3A0xbda01077b89581e2!2sAnna%20Nagar%2C%20Chennai%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1715938859823!5m2!1sen!2sin"
+      description: "Our Thikana PG offers comfortable accommodation for students and working professionals. Located in a peaceful residential area, the PG is just 5 minutes away from North Campus . The property features modern amenities including high-speed WiFi, air conditioning in all rooms, nutritious home-cooked four time meals, and 24x7 security. We maintain strict hygiene standards with regular housekeeping and provide comfortable beds with clean linens.",
+      location: "Aspiration Gym, Roop Nagar, Delhi, 110007",
+      nearbyPlaces: "Hansraj College (1 km), Kirori Mal College (1.5 km), North Campus Metro Station (0.5 km), Kamla Nagar Market (2 km), Delhi University Library (1.2 km)",
+      googleMapsEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502.1447030180066!2d77.19449867548974!3d28.683195381193504!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfda77a40ea23%3A0x942b1e349da7580!2sNestInn!5e0!3m2!1sen!2sin!4v1717771992703!5m2!1sen!2sin"
     },
+      
     "adyar": {
       name: "Adyar PG",
       description: "Located in the heart of Adyar...",
