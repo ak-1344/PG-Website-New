@@ -18,8 +18,8 @@ const PgDetails = () => {
   const pgDetails = {
 
 
-    "roop-nagar": {
-      name: "Roop Nagar PG (Boys)",
+    "NI01": {
+      name: "NI01 PG (Boys)",
       description: "Our Thikana PG offers comfortable accommodation for students and working professionals. Located in a peaceful residential area, the PG is just 5 minutes away from North Campus . The property features modern amenities including high-speed WiFi, air conditioning in all rooms, nutritious home-cooked four time meals, and 24x7 security. We maintain strict hygiene standards with regular housekeeping and provide comfortable beds with clean linens.",
       location: "Aspiration Gym, Roop Nagar, Delhi, 110007",
       nearbyPlaces: "Hansraj College (1 km), Kirori Mal College (1.5 km), North Campus Metro Station (0.5 km), Kamla Nagar Market (2 km), Delhi University Library (1.2 km)",
@@ -67,7 +67,7 @@ const PgDetails = () => {
 
     "PH01": {
       name: "PH01 PG (Girls)",
-      description: "Located in the Vijaynagar",
+      description: "PixelHome PG offers a modern and comfortable living experience for girls with a safe and secure environment. It is situtated in Vijaynagar, close to North Campus. The PG features spacious rooms with AC, high-speed WiFi, and nutritious home-cooked meals served four times a day. We ensure 24x7 security with CCTV surveillance and provide regular housekeeping services to maintain hygiene standards. The property also includes recreational areas for relaxation.",
       location: "Vijaynagar, Delhi, 110007",
       nearbyPlaces: "Miranda House (1 km), DRCC (1.5 km), North Campus Metro Station (0.5 km), Kamla Nagar Market (2 km), Delhi University Library (1.2 km)",
       googleMapsEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3499.9363183247524!2d77.1993249!3d28.6915515!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfdf48d96153b%3A0x71f240ceb9698a1f!2sManjeet%20Cold%20Drink!5e0!3m2!1sen!2sin!4v1749316884634!5m2!1sen!2sin",
@@ -85,7 +85,8 @@ const PgDetails = () => {
         "Emergency Doctor",
         "4-times Meals",
         "Laundry Services",
-        "Housekeeping"
+        "Housekeeping",
+        "Recreational Areas"
       ],
       roomPricing: [
         {
@@ -102,19 +103,19 @@ const PgDetails = () => {
 
 
 
-    "velachery": {
-      name: "Velachery PG",
-      description: "Modern PG accommodation in Velachery...",
-      location: "45 Second Avenue, Anna Nagar, Chennai, Tamil Nadu, 600040",
-      nearbyPlaces: "Anna University (1.5 km), VR Chennai Mall (2 km), Anna Nagar Metro Station (0.8 km), Apollo Hospitals (3 km), Central Park (1 km)",
-      googleMapsEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502.1447030180066!2d77.19449867548974!3d28.683195381193504!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfda77a40ea23%3A0x942b1e349da7580!2sNestInn!5e0!3m2!1sen!2sin!4v1717771992703!5m2!1sen!2sin",
+    "NI02": {
+      name: "NI02 PG (Boys)",
+      description: "Thiakana PG offers comfortable accommodation for students and working professionals. Located in a peaceful residential area, the PG is just 5 minutes away from North Campus . The property features modern amenities including high-speed WiFi, air conditioning in all rooms, nutritious home-cooked four time meals, and 24x7 security. We maintain strict hygiene standards with regular housekeeping and provide comfortable beds with clean linens.",
+      location: "Roop Nagar, Delhi, 110007",
+      nearbyPlaces: "Hansraj College (1 km), Kirori Mal College (1.5 km), North Campus Metro Station (0.5 km), Kamla Nagar Market (2 km), Delhi University Library (1.2 km)",
+      googleMapsEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3499.9516198473434!2d77.2014645!3d28.6910938!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce5d5162be263%3A0x185d053330c971e6!2sCool%20Scoop%20-%20Vijay%20Nagar!5e0!3m2!1sen!2sin!4v1749319068764!5m2!1sen!2sin",
       images: [
-        { url: "/media/common/roop-nagar/common.jpeg", alt: "PG Common View" },
-        { url: "/media/common/roop-nagar/single.jpeg", alt: "PG Single occupancy Room" },
-        { url: "/media/common/roop-nagar/double.jpeg", alt: "PG Double occupancy Room" },
-        { url: "/media/common/roop-nagar/three.jpeg", alt: "PG Triple occupancy Room" },
-        { url: "/media/common/roop-nagar/washroom.jpeg", alt: "PG Washroom Area" },
-        { url: "/media/common/roop-nagar/balcony.jpeg", alt: "PG Balcony Area" }
+        { url: "/media/common/NI02/common.jpeg", alt: "PG Common View" },
+        { url: "/media/common/NI02/common2.jpeg", alt: "PG Single occupancy Room" },
+        { url: "/media/common/NI02/double.jpeg", alt: "PG Double occupancy Room" },
+        { url: "/media/common/NI02/common3.jpeg", alt: "PG Triple occupancy Room" },
+      //   { url: "/media/common/", alt: "PG Washroom Area" },
+      //   { url: "/media/common/", alt: "PG Balcony Area" }
       ],
       amenities: [
         "Free WiFi",
@@ -123,7 +124,6 @@ const PgDetails = () => {
         "4-times Meals",
         "Laundry Services",
         "Housekeeping",
-        "Gym",
         "Recreational Areas"
       ],
       roomPricing: [
@@ -134,14 +134,14 @@ const PgDetails = () => {
         },
         {
           type: "Double Sharing",
-          price: "₹14,000/month",
-          description: "AC, 4 times Meals, Laundry etc. Included"
-        },
-        {
-          type: "Triple Sharing",
           price: "₹13,000/month",
           description: "AC, 4 times Meals, Laundry etc. Included"
-        }
+        },
+        // {
+        //   type: "Triple Sharing",
+        //   price: "₹13,000/month",
+        //   description: "AC, 4 times Meals, Laundry etc. Included"
+        // }
       ]
     }
   };

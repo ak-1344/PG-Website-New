@@ -18,7 +18,7 @@ const BookingSection: React.FC<BookingSectionProps> = ({ preselectedPg }) => {
 
   const [loading, setLoading] = useState(false);
 
-  const pgOptions = ['Roop-Nagar PG-B (NestInn)', 'Pixel Home PG-G (PH01)', 'Elite PG - Tech Park'];
+  const pgOptions = ['NI01', 'PH01', 'NI02'];
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement | HTMLTextAreaElement>) => {
     const { name, value } = e.target;

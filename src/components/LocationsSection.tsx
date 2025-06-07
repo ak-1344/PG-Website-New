@@ -32,25 +32,25 @@ const LocationCard = ({ id, name, image, address, nearbyPlaces }: LocationCardPr
 
 const locations = [ 
   {
-    id: "roop-nagar",
-    name: "Roop Nagar PG (Boys)",
+    id: "NI01",
+    name: "NI01 PG (Boys)",
     image: "media/common/roop-nagar/common.jpeg",
     address: "Roop Nagar, Delhi",
     nearbyPlaces: "Hansraj College, KMC, North Campus"
   },
   {
     id: "PH01",
-    name: "Pixel Home PG (PH01) ~Girls",
+    name: "PH01 PG (Girls)",
     image: "media/common/PixelHome/2-bed.jpeg",
     address: "Vijay Nagar, Delhi",
     nearbyPlaces: "Miranda House, North Campus"
   },
   {
-    id: "velachery",
-    name: "Velachery PG",
-    image: "https://images.unsplash.com/photo-1648012201258-33cbfbf96327",
-    address: "78 Main Street, Velachery, Chennai",
-    nearbyPlaces: "SRM University, Phoenix Mall, Grand Mall"
+    id: "NI02",
+    name: "NI02 PG (Boys)",
+    image: "media/common/NI02/common.jpeg",
+    address: "Roop Nagar, Delhi",
+    nearbyPlaces: "Hansraj College, KMC, North Campus"
   },
 ];
 
